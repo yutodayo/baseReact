@@ -1,6 +1,7 @@
 import React from "react";
 
 const ColofulMessage = (props) => {
+  console.log("カラフル");
   //props:compornentsの引数
   const { color, children } = props;
   const contentStyle = {
